@@ -1,0 +1,22 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+body{
+    height: 100%;
+    max-width: 1900px;
+    margin-bottom: 0;
+
+}
+.container {
+	margin-left: auto;
+    margin-right: auto;
+
+    overflow: auto;
+    padding: 0;
+}
+footer{
+    background: #8A360F;
+    margin-bottom: 0;
+}
