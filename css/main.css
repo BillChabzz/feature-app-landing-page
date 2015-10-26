@@ -1,12 +1,15 @@
+*{
+    margin: 0;
+}
 html,body{
-    padding: 0;
+
     margin: 0;
     height: 100%;
 }
 body{
-    height: 100%;
+
     max-width: 1900px;
-    margin-bottom: 0;
+
 
 }
 .container {
@@ -16,7 +19,9 @@ body{
     overflow: auto;
     padding: 0;
 }
+
 footer{
+    height: 150px;
     background: #8A360F;
-    margin-bottom: 0;
+    margin: 0;
 }
