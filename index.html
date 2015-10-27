@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <script src="http://use.edgefonts.net/antic-didone:n4:all.js"></script>
         <title></title>
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/css/normalize.css">
@@ -39,6 +39,39 @@
                     <p>Tour<span>Adventure</span><br>&copy;<span>Tour Adventure</span> 2015. All rights reserved</p>
                 </div>
             </footer>
+        <script type="text/javascript">
+            function postContactToGoogle(){
 
+        var email = $j('#email').val();
+
+        if ((email !== "") (validateEmail(email)) {
+            $j.ajax({
+                url: "https://docs.google.com/yourFormURL/formResponse",
+                data: {"entry.3" : email},
+                type: "POST",
+                dataType: "xml",
+                statusCode: {
+                    0: function (){
+                         $j('#email').val("");
+                            alert("Successful post");
+                    },
+                    200: function (){
+                         $j('#email').val("");
+                        alert("Successful post");
+
+                    }
+                }
+            });
+        }
+        else {
+           alert("Something went wrong ");
+        }
+            $(document).ready(function()){
+                              $('#form').submit(function()){
+                                                postContactToGoogle();
+                                                return false;
+                                                }
+                              }
+        </script>
     </body>
 </html>

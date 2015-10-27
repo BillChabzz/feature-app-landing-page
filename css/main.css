@@ -3,6 +3,7 @@
 }
 html,body{
 
+
     margin: 0;
     height: 100%;
 }
@@ -19,7 +20,18 @@ body{
     overflow: auto;
     padding: 0;
 }
-
+p,h1{
+     font-family: antic-didone;
+}
+.fut {
+    padding: 20px;
+	text-align: center;
+    color: #fff;
+    font-size: 1.3em;
+}
+span{
+    color: #CD3700;
+}
 footer{
     height: 150px;
     background: #8A360F;
