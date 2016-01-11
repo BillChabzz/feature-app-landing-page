@@ -1,21 +1,21 @@
 *{
     margin: 0;
 }
-html,body{
-
-
-    margin: 0;
-    height: 100%;
+html{
+    position: relative;
+    min-height: 100%;
 }
 body{
-
-    max-width: 1900px;
-
+    height: 100%;
+    width: 100%;
+    
 
 }
+.wrapper{
+    
+}
 .container {
-	margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 
     overflow: auto;
     padding: 0;
@@ -23,17 +23,23 @@ body{
 p,h1{
      font-family: antic-didone;
 }
-.fut {
-    padding: 20px;
-	text-align: center;
-    color: #fff;
-    font-size: 1.3em;
-}
+
 span{
     color: #CD3700;
 }
 footer{
+    position: absolute;
+    
+    padding: 20px;
+	text-align: center;
+    color: #fff;
+    font-size: 1.3em;
     height: 150px;
     background: #8A360F;
-    margin: 0;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    
+    width: 100%;
+    overflow:hidden;
 }

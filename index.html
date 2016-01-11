@@ -2,12 +2,15 @@
 <html>
     <head>
         <script src="http://use.edgefonts.net/antic-didone:n4:all.js"></script>
-        <title></title>
+        <title>Tour Adventure</title>
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/css/normalize.css">
-        <link rel="stylesheet" href="css/css/skeleton.css"
+        <link rel="stylesheet" href="css/css/skeleton.css">
+        <link rel="stylesheet" href="css/vegas.min.css">
     </head>
     <body>
+        <section id="example">
+        
         <header>
             <p>TourAdventure</p>
         </header>
@@ -34,11 +37,26 @@
             </div>
         </div>
         </div>
-            <footer class="fut">
+       <!--     <footer>
                 <div class="container">
-                    <p>Tour<span>Adventure</span><br>&copy;<span>Tour Adventure</span> 2015. All rights reserved</p>
+                    <p>Tour<span>Adventure</span><br>&copy;<span>Tour Adventure</span><script>document.write(new Date().getFullYear());</script>. All rights reserved</p>
                 </div>
-            </footer>
+                
+            </footer>-->
+            </section>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="js/vegas.min.js"></script>
+        <script>
+    $("#example, body").vegas({
+    slides: [
+        { src: "/img/lion.jpg" },
+        { src: "/img/zebrz.jpg" },
+        { src: "/img/elephant.jpg" }
+        
+    ]
+});
+
+    </script>
         <script type="text/javascript">
             function postContactToGoogle(){
 
